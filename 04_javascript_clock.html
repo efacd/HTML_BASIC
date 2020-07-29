@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script src="js/04_javascript_clock.js"></script>
+        <style>
+            body {
+                background-color: darkslateblue;
+            }
+            div {
+                background-color: yellow;
+                color : red;
+                width : 400px;
+                height : 100px
+            }
+        </style>
+    </head>
+    <!-- html의 내용과 JavaScript의 내용이 서로 맞아야 원하는 출력 형성 가능 -->
+    <body>
+        <h1>시계를 만들어보자!</h1>
+        <!-- div에 꼬리표를 하나 붙여둔 것 (찾기 위해서) -->
+        <div id="myDiv">여기에 시간을 출력할 예정</div>
+        <!-- 버튼을 누른 순간부터 동작하도록 만들 예정 -->
+        <input type="button" value="시계시작!"
+            onclick="start_clock()">
+    </body>
+</html>

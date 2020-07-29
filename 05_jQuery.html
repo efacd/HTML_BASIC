@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- 순수 JavaScript가 아니라 jQuery를 활용하기 위한 코드를 짜 보자 -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            body {
+                background-color: midnightblue;
+            }
+        </style>
+        <!-- CDN 방식 : 이 링크를 이용해서 라이브러리를 가져오는 방식 -->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+                integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+                crossorigin="anonymous"></script>
+        <script src="js/05_jQuery.js"></script>
+    </head>
+        <h1>jQuery 연습중!</h1>
+        <div>
+            <ul>
+                <li class="region">서울</li>
+                <!-- 같은 id값을 가질 수는 없다 -->
+                <!-- 하지만 class는 같은 값을 가질 수 있다 -->
+                <li id="haha">인천</li>
+                <li class="region">강원</li>
+            </ul>
+            <ol>
+                <li id="hong">홍길동</li>
+                <li>신사임당</li>
+                <li>강감찬</li>
+            </ol>
+        </div>
+        <input type="button" value="클릭!!"
+               onclick="my_func()">
+    </body>
+</html>

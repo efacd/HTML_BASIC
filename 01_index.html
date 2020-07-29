@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- 모든 내용은 html 사이에 들어 있어야 한다 -->
+<html lang="en">
+    <head>
+        <!-- 일반적인 설정이 오는 부분 -->
+        <!-- 인코딩 방식을 지정하는 부분 -->
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <!-- h1이 selector에 해당함 -->
+        <style>
+            h1 {
+                color : red;
+            }
+        </style>
+        <!-- JavaScript가 오는 부분 -->
+        <script>
+            function my_func() {
+                // JavaScript의 한 줄 주석은 //이다
+                alert("소리없는 아우성");  // 경고창을 출력
+            }
+        </script>
+    </head>
+    <!-- 브라우저에 출력하고 싶은 내용을 body 안에 쓴다 -->
+    <body>
+        <!-- heading 1 : 글자를 정해진 크기로 크게 출력 하는 태그 -->
+        <!-- h1과 같은 것을 태그라고하고, 태그로 이루어진 전체를 element라고 한다 -->
+        <h1> Title : 제목 </h1>
+        <input type="button" value="클릭" onclick="my_func()">
+        <!-- br은 한줄 띄우라는 의미 -->
+        <br>
+        <!-- 이미지를 보여주는 태그 -->
+        <img src = "image/inter.JPG">
+        <!-- 태그 하나로 존재하는 element도 있다 -->
+        <!-- src와 같은 것들을 property(attribute)라고 한다 -->
+    </body>
+</html>
+<!--
+    http://localhost:63342/HTML_basic/01_index.html
+    localhost : IP 주소 / 63342 : Port 번호 / HTML_basic : 프로젝트명 / 01_index.html : 파일명
+-->
